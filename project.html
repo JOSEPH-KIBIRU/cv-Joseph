@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALTOR COMPANY</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="/images/Eagles logo.png" alt="Company Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#listings">Property Listings</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section id="hero">
+        <div class="hero-content">
+          <h1>Welcome to Eagles Realtors Ltd</h1>
+          <p>Find your <span class="span">dream home with us today!</span> </p>
+          <a href="#listings" class="btn">View Listings</a>
+          
+        </div>
+        
+      </section>
+    
+     
+      <section id="listings">
+        <h2>Property Listings</h2>
+        <div class="property-cards">
+          
+          <article class="property-card">
+            <img src="/images/vihiga kile.jpg" alt="Kileleshwa">
+            <h3>Modern Apartment</h3>
+            <p>Spacious 3-bedroom all ensuite apartment in the heart of the city.</p>
+            <p class="price">Ksh 120,000</p>
+          </article>
+          
+          <article class="property-card">
+            <img src="/images/muthaiga north.jpg" alt="Muthaiga">
+            <h3>Luxury Villa</h3>
+            <p>Stunning 5-bedroom villa with a private garden.</p>
+            <p class="price">Ksh 150,000</p>
+          </article>
+        
+          <article class="property-card">
+            <img src="/images/racecourse gardens.jpg" alt="Ngong Road">
+            <h3>Cozy pent-house </h3>
+            <p>Charming 2-bedroom apartments in a quiet countryside location.</p>
+            <p class="price">Ksh 40,000</p>
+          </article>
+        </div>
+      </section>
+    
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading real estate company dedicated to helping you find the perfect home. With years of experience and a commitment to excellence, we provide personalized service to meet your unique needs.</p>
+      </section>
+    
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    
+      <footer>
+        <p>&copy; 2025 Eagles Realtors Ltd. All rights reserved.</p>
+      </footer>
+</body>
+</html>
